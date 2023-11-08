@@ -1,0 +1,8 @@
+
+.card.Defend{
+  $color-here:rgb(52, 183, 226);
+  background-color:   $color-here;
+  & .cardIcon{
+    background-image:url("../graphics/skillCards/defend.png");
+  }
+}

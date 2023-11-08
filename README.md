@@ -1,3 +1,7 @@
+# issue
+clicking discard pile doesn't work
+
+
 # Svelte + Vite
 
 This template should help get you started developing with Svelte in Vite.

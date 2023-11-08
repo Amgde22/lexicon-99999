@@ -1,0 +1,29 @@
+
+
+
+
+.card.Strike{
+  $color-here :red;
+  background-color: $color-here;
+  & .cardIcon{ background-image: url("../graphics/attackCards/slash.png"); }
+
+}
+.card.Bash{
+  $color-here :orange;
+  background-color: $color-here;
+
+  & .cardIcon{ background-image: url("../graphics/attackCards/bash.png"); }
+}
+.card.poisonstab{
+  background-color: green;
+  & .cardIcon{ background-image: url("../graphics/attackCards/poison_stab.png"); }
+  
+}
+.card.drawblood{ 
+  background-color: crimson;
+  & .cardIcon{ background-image: url("../graphics/attackCards/draw_blood.jpeg"); }
+}
+.card{
+  background-color: white;
+  & .cardIcon{background-image: url();}
+}

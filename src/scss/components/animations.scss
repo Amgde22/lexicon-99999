@@ -1,0 +1,70 @@
+.background_animation{
+  position: absolute;
+  width: 100%;height: 100%;
+  top: 0;bottom: 0;margin: auto;
+
+
+  & img{
+    position: absolute;
+    width: 100%; height: auto;
+    top: 0;bottom: 0;margin: auto;
+  }
+}
+.hidden{
+  display: none;
+}
+
+
+// attack animations
+.slash{
+  box-sizing: initial;
+  position: absolute;right: 0;bottom: 25%; margin: auto;
+  width: 100%; height: 2%; 
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 100% 50%;
+  transform-origin: left;
+}
+
+.basic_slash{
+  border: 3px solid crimson;
+  animation-name:basicSlash ;
+  animation-duration: 250ms;
+}
+//icons
+.icon{
+  position: absolute;
+  width: 100% ;height: 100%;
+  object-fit: contain;
+  text-shadow: 2px 0 black 
+  , -2px  0 black
+  , 0   2px black
+  , 0  -2px black ;
+  z-index: -1;
+
+  animation: iconLoad .5s ;
+}
+.icon.attack{
+
+  & path{
+    fill: red;
+  }
+}
+
+
+// keyframes
+@keyframes basicSlash {
+  0%{transform: rotate(-25deg) scaleX(0);}
+100%{transform: rotate(-25deg) scaleX(1);}
+}
+
+@keyframes iconLoad{
+  0%{transform: translateY(80%) scale(.6); opacity: 0.2;}
+100%{transform: translateY(0)   scale(1);  opacity: 1;  }
+}
+
+
+// media
+@media (max-width: 1000px){
+
+}
