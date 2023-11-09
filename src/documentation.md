@@ -1,3 +1,13 @@
+# steps
+shouf ki effect applied - done
+race it to the end - done
+write a unified effect class with all functions
+functions to get value of uses , duration
+whats the difference between remove and force remove , can it be one???
+
+
+change pubsub to call function not object.effect
+
 #       [LEVELS]
 levels are arrays of [Enemy Groups]
 at start of each run pick a level order at random that ends with a boss
