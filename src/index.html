@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!-- 
-  <meta name="viewport" 
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
-      <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0 , user-scalable=1">  -->
+      <!-- <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> -->
   <title>Lexicon - start</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,10 +23,7 @@
 
 
     <div class="header"></div>
-    <div class="cardScanner">
-      <h1>?</h1>
 
-    </div>
 
 
       <div class="entity friendly player">
@@ -48,21 +45,28 @@
 
     <button class="endTurnBtn"> End Turn</button>
 
+    <div class="side-container">
+      <div class="discardPile">
+        <img draggable="false" src="./graphics/icons/discardPile-icon.png" alt="Display discard Pile">
+      </div>
 
-    <div class="playerEnergyContainer"><p><span class="playerEnergy"></span> / <span class="playerMaxEnergy"></span></p></div>
+      <div class="playerEnergyContainer"><p><span class="playerEnergy"></span> / <span class="playerMaxEnergy"></span></p></div>
+
+      <div class="drawPile">
+        <img draggable="false" src="./graphics/icons/drawPile-icon.png" alt="Display Draw Pile">
+      </div>
+
+
+    </div>
+    
 
     <div class="hand">
         <div class="squeezer squeezer1"></div>
         <div class="squeezer squeezer2"></div>
     </div>
 
-    <div class="drawPile">
-      <img draggable="false" src="./graphics/icons/drawPile-icon.png" alt="Display Draw Pile">
-    </div>
-    <div class="discardPile">
-      <img draggable="false" src="./graphics/icons/discardPile-icon.png" alt="Display discard Pile">
 
-    </div>
+
 
     <dialog  class="drawPile-dialog">
       <h1 class="title">Cards you might draw next ...</h1>
