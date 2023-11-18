@@ -1,6 +1,6 @@
 
 # todo
-
+make enemy grid AN ACTUAL GRID so we can  fit larger enemies
 
 
 
